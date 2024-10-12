@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: poppins;
+    background: url(./pictures/full-shot-woman-meditating-outdoors.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    background: white;
+    width: 75%;
+    padding: 32px;
+    align-self: center;
+    margin: 50px auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 2px 5px 6px rgba(0, 0, 0, 0.3);
+   
+
+}
+
+form div {
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    /* border: 2px solid black; */
+    margin: 5px auto;
+
+
+}
+
+form p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 5px;
+
+}
+
+form h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* margin-bottom: 20px; */
+
+}
+
+form input {
+    margin: 5px 8px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    
+    
+}
+
+
+form textarea {
+    padding: 8px;
+    width: 100%;
+    height: 30%;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+.submit {
+    margin: 5px auto;
+    padding: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    justify-content: center;
+    align-items: center;
+
+
+}
